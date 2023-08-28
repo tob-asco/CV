@@ -1,0 +1,86 @@
+\documentclass[english,10pt]{article}
+\usepackage[a4paper, margin={3cm}]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{makecell}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+\usepackage{hyperref}
+\pagestyle{fancy}
+\title{Curriculum Vitae}
+\author{Tobias Hochreiter}
+\begin{document}
+	\cfoot{\thepage\ / \pageref*{LastPage}}
+	\vspace*{-1.5cm}
+	%\hrule
+	\begin{picture}(0,0)
+		\put(320,-120){\includegraphics[width=3cm]{../moi1.jpg}}
+	\end{picture}
+	\begin{center}
+		\textbf{\LARGE Curriculum Vitae}\\
+		\vspace{.4cm}
+		{\large Tobias Hochreiter}\\
+		\vspace{.2cm}
+		tobias.hochreiter@gmx.at
+		\vspace{-.5cm}
+	\end{center}
+	\section*{Personal Data}
+	born 10/10/1997 in Salzburg, Austria\\
+	Austrian citizen\\
+	unwed
+		
+	\section*{Education \hfill\small(theses at \href{https://github.com/tob-asco/theses}{github.com/tob-asco/theses})}
+	\begin{tabularx}{\linewidth}{m{3cm}|X}
+		04/2021 - 06/2023 & \makecell{\textbf{\href{https://www.math.uni-hamburg.de/master/mphys/}{UHH}} (Hamburg): M.Sc. Mathematical Physics\\
+			\textit{On Topological Quantum Field Theories}}\hfill($1.0$~~s.c.l.)\\\hline\vspace{1pt}
+		10/2017 - 06/2021 & \makecell{\textbf{\href{https://www.ph.tum.de/academics/bsc/}{TUM}} (Munich): B.Sc. Physics\\
+			\textit{Physical and Geometrical Viewpoints of the KdV Equation}}\hfill($1.3$~~~~c.l.)\\\hline\vspace{1pt}
+		09/2011 - 05/2016 & \makecell{\href{http://www.htl-salzburg.ac.at/biomedizin-gesundheitstechnik.html}{HTL Bio-engineering} (Salzburg): A-levels\\
+			\textit{Injectionary 2: A Vaccination Database}}\hfill ($1.4$~~s.c.l.)\\\hline\vspace{1pt}
+		09/2007 - 07/2011 & \href{https://www.werkschulheim.at}{Werkschulheim Felbertal}
+	\end{tabularx}
+	
+	\section*{Civilian Service}
+	\begin{tabularx}{\linewidth}{m{3cm}|X}
+		08/2016 - 04/2017 & \href{https://www.roteskreuz.at/salzburg/ich-will-helfen/zivildienst}{Red Cross Salzburg} \hfill  (paramedic \& driver)
+	\end{tabularx}
+	
+	\section*{Internships}
+	\begin{tabularx}{\linewidth}{m{3cm}|X}
+		05/2017 - 08/2017 & \href{https://www.die-salzburger-industrie.at/unternehmen/a-b-mikroelektronik-gmbh/}{AB Mikroelektronik} \hfill (electronic engineer for circuitry)\\
+		08/2014 - 09/2014 & \href{https://www.northdata.com/AML+Elektrotechnik+GmbH,+Koppl/360865i}{AML Elektrotechnik} \hfill (electric engineer on site)\\
+		08/2013 - 09/2013 & \href{https://salk.at/}{SALK} \hfill (hospital in dpt. \textit{medical technology})
+	\end{tabularx}
+	
+	\section*{Minor Employments}
+	\begin{tabularx}{\linewidth}{m{3cm}|X}
+		10/2022 - 04/2023 & tutor for \textit{analysis 3 for physicists} \hfill(teaching)\\
+		10/2020 - 04/2021 & tutor for \textit{theo. physics: statistical mechanics}\hfill (guiding \& teaching)\\
+		04/2020 - 10/2020 & tutor for \textit{theo. physics: quantum mechanics} \hfill (guiding \& teaching)\\
+		10/2019 - 04/2020 & tutor for \textit{theo. physics: electrodynamics} \hfill (guiding \& teaching)\\
+		04/2019 - 10/2019 & tutor for \textit{theo. physics: classical mechanics} \hfill (guiding \& teaching)\\
+		12/2014 - 05/2017 & \href{https://www.ib-krallinger.com/}{IB-Krallinger} \hfill (electric draughtsman)\\
+		10/2013 - 07/2014 & AML Elektrotechnik \hfill (building switchboxes)
+	\end{tabularx}
+	
+	\section*{Scholarships}
+	\begin{tabularx}{\linewidth}{m{3cm}|X}
+		10/2018 - 10/2023 & \href{https://www.elitenetzwerk.bayern.de/start/foerderangebote/max-weber-programm}{Max Weber-Programm} \hfill (non-material \& 215€/month)\\
+		05/2021 - 05/2022 & \href{https://www.qu.uni-hamburg.de/}{Quantum Universe Cluster of Excellence} \hfill (861€/month)
+	\end{tabularx}
+	
+	\section*{Languages}
+	\begin{tabular}{m{3cm} | l}
+		German & mother language\\
+	English & level C1 approx., from higher studies\\
+	French & level B2 from \textit{DELF}-exam\\
+	Mathematics & mainly algebraic (e.g. category theory) but also analytic (e.g. PDEs)\\
+	\textbf{C\#} & cf. \href{https://github.com/tob-asco/seeds}{\texttt{github.com/tob-asco/seeds}}\\
+	\LaTeX & author of package \texttt{counttherefs}\\
+	misc. & Python, XAML, HTML, VB, C++
+	\end{tabular}
+	\hrule
+\end{document}
